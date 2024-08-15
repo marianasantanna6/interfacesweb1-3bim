@@ -5,6 +5,9 @@ body, ul, li, h4{
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #ccc
+}
 h1 {
     text-align: center;
 }
@@ -12,15 +15,15 @@ li{
     width: 130px;
 }
 .menu li a:hover{
-    background-color: #575353;
-    color: tomato;
+    background-color: #d48610;
+    color: rgb(70, 61, 59);
 }
 a{
     text-decoration: none;
     color: #fff;
 }
 .header{
-    background-color: #1d1e20;
+    background-color: #521c1c;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,11 +40,13 @@ a{
 .menu li a{
     display: block;
     padding: 12px;
-    background-color: tomato;
+    background-color: rgb(182, 49, 49);
 }
 .header img{
     border-radius: 100%;
-    width: 200px;
+    width: 60px;
+    height: auto;
+    
 }
 .container{
     background-color: #ccc;
@@ -53,13 +58,22 @@ a{
     align-content: flex-start;
 }
 .item{
-    background-color: #575353;
+    background-color: #521c1c ;
     color: #fff;
     padding: 20px;
     margin: 5px;
     width: 300px;
 }
+.item:hover{
+    background-color: #d48610;
+    color:rgb(70, 61, 59) ;
+}
 img{
     width: 295px;
     height: 180px;
 }
+
+.legenda{
+    text-align: center;
+}
+
